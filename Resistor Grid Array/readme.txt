@@ -12,7 +12,7 @@ to use the virtual environment:
 - download and install an IDE of choice (Instructions use VSCode) 
 - once installed, place the code and sensors_env together in a folder and open said folder in vs code
 - select Voltage_Solver,py in the explorer on the left
-- if prompted select the interpreter as sensors_env, else upon opening in the bottom right corner next to bell icon click the box and select sensors_env as the interpreter
+- if prompted select the interpreter as sensors_env, else upon opening in the bottom right corner next to bell icon click the box and select sensors_env as the interpreter    (if not visible straight away, click browse and select sensors_env/scripts/python.exe)
 - once selected click the run button once, the code should initially fail to execute but after about 20-30s VSCode should automatically type a command in the terminal and after that the code should execute fine. If this does not happen automatically, type the following in the terminal "(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& {path the folder, eg: c:\VSCode}\sensors_env\Scripts\Activate.ps1)"
 - after this runs the python environment should be ready
 
